@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
 </head>
 <body>
     <header class="site-header">
         <div class="wrapper">
             <h1 class="site-title">
-                <a href="{{ site.baseurl | prepend: site.url }}">Inicio</a>
+                <a href="{{ site.baseurl }}/">Inicio</a>
             </h1>
             <nav class="site-nav">
                 <ul>
-                    <li><a href="{{ '/about/' | relative_url }}">Sobre mí</a></li>
+                    <li><a href="{{ site.baseurl }}/about/">Sobre mí</a></li>
                 </ul>
             </nav>
         </div>

@@ -4,8 +4,8 @@ email: oscar.sanchezI29@comunidadunir.net
 description: >-
   Un blog personal donde comparto mis experiencias y recuerdos de los lugares
   que he visitado. Desde zonas interesantes hasta consejos prácticos.
-baseurl: ""
-url: "http://localhost:4000"
+baseurl: "/creacion-blog"S
+url: "https://osz8.github.io"
 twitter_username: "oscar.sanchezI29"
 github_username: "oscar.sanchezI29"
 

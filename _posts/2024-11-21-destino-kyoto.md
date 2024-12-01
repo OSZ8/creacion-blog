@@ -10,14 +10,14 @@ Kyoto es el corazón cultural de Japón, un lugar donde la tradición y la moder
 ### Lugares que no puedes perderte
 1. **Templo Kinkaku-ji (Pabellón Dorado):**
    Una maravilla arquitectónica rodeada por un sereno estanque.
-   ![Templo Kinkaku-ji](/assets/images/Kinkaku-ji.jpg)
+   ![Templo Kinkaku-ji]({{ site.baseurl }}/assets/images/Kinkaku-ji.jpg)
 
 2. **Bosque de Bambú de Arashiyama:**
    Caminar entre los altos bambús es una experiencia inolvidable.
-   ![Bosque de Bambú de Arashiyama](/assets/images/Arashiyama-bambu.jpg)
+   ![Bosque de Bambú de Arashiyama]({{ site.baseurl }}/assets/images/Arashiyama-bambu.jpg)
 
 3. **Fushimi Inari Taisha:**
    Famoso por sus miles de torii naranjas que forman un sendero mágico.
-   ![Fushimi Inari Taisha](/assets/images/Fushimi-Inari.jpg)
+   ![Fushimi Inari Taisha]({{ site.baseurl }}/assets/images/Fushimi-Inari.jpg)
 
 Kyoto es un destino que combina la belleza natural con una rica herencia cultural. ¡Déjate sorprender por su encanto!
