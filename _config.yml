@@ -1,0 +1,26 @@
+# Configuración del blog de viajes
+title: Mi Blog de Viaje
+email: oscar.sanchezI29@comunidadunir.net
+description: >-
+  Un blog personal donde comparto mis experiencias y recuerdos de los lugares
+  que he visitado. Desde zonas interesantes hasta consejos prácticos.
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: "oscar.sanchezI29"
+github_username: "oscar.sanchezI29"
+
+# Configuración de construcción
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Configuración personalizada
+paginate: 5 # Número de publicaciones por página
+author: Oscar Sanchez Garcia
+footer: >-
+  Blog creado para compartir experiencias de viaje y recomendar destinos únicos.
+  Proyecto desarrollado para Desarrollo de Aplicaciones en Red, Laboratorio 1.
+categories:
+  - Destino
+  - Consejos de viaje
+  - Experiencia

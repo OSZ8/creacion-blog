@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1 class="site-title">
+                <a href="{{ site.baseurl | prepend: site.url }}">Inicio</a>
+            </h1>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="{{ '/about/' | relative_url }}">Sobre mí</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <section class="intro">
+            <h2>Bienvenido a {{ site.title }}</h2>
+            <p>{{ site.description }}</p>
+        </section>
+
+        <section class="posts">
+            <h2>Últimas publicaciones</h2>
+            <ul class="post-list">
+                {% for post in site.posts %}
+                <li>
+                    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                    <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+                    <p>{{ post.excerpt }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Un blog personal donde comparto mis experiencias y recuerdos de los lugares que he visitado. Desde zonas interesantes hasta consejos prácticos.</p>
+        </div>
+    </footer>
+</body>
+</html>
